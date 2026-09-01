@@ -1,0 +1,16 @@
+# build a pod with nginx image
+# run it with the command: kubectl apply -f nginx.yaml
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+  labels:
+    app: nginx
+
+
+spec:
+  containers:
+    - name: nginx
+      image: nginx:latest
+
