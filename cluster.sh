@@ -1,1 +1,1 @@
- kind create cluster --config cluster.yaml
+kind create cluster --config "F:\learn_kubernetes\cluster.yaml"

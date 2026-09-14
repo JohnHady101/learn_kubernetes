@@ -1,0 +1,1 @@
+kubectl apply -f "F:\learn_kubernetes\pods\nginx.yaml"
