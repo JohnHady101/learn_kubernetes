@@ -16,7 +16,8 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx
+        # use an old nginx image to demonstrate rolling update
+        image: nginx:1.14.2
         ports:
         - containerPort: 80
         resources:
